@@ -132,8 +132,10 @@ const Calculator = () => {
                     </div>
                 </form>
                 <p className="text-center">
-                    Consulte na
-                    tabela ao lado em que categoria você se enquadra
+                    Consulte na tabela
+                    <span className="d-none d-md-inline"> ao lado </span>
+                    <span className="d-inline d-md-none"> abaixo </span>
+                    em que categoria você se enquadra
                 </p>
             </div>
             <div className="col-md-8 mt-4 mt-md-0">
