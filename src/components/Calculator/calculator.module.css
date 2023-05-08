@@ -1,0 +1,17 @@
+
+
+.BMIcalculatorInput:invalid {
+    background-color: #f8d7da;
+    color: rgb(218, 87, 87);
+}
+
+/* make weight and height unit tips same width*/
+.customInputGroupText {
+    width: 3em;
+}
+
+.divForm {
+    height: 330px;
+    display: grid;
+    place-items: center;
+}
