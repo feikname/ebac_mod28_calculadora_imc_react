@@ -136,7 +136,7 @@ const Calculator = () => {
                     tabela ao lado em que categoria você se enquadra
                 </p>
             </div>
-            <div className="col-md-8">
+            <div className="col-md-8 mt-4 mt-md-0">
                 <BMITable bmi={imc} />
             </div>
         </div>
